@@ -381,9 +381,9 @@ aded.setText(""+0);
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-//        this.dispose();
-//    EnglishFrame eng = new EnglishFrame();
-//    eng.setVisible(true);
+    this.dispose();
+    Pomodoro timer = new Pomodoro();
+    timer.setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
